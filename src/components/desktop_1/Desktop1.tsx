@@ -2,7 +2,6 @@ import { Button, Flex, Text, View, Cell, Column, Heading, Row, TableView, TableB
 import Add from "@spectrum-icons/workflow/Add"
 import Delete from "@spectrum-icons/workflow/Delete"
 import Edit from "@spectrum-icons/workflow/Edit"
-import { useNavigate } from "react-router-dom";
 
 export const airports = [
     {
@@ -43,11 +42,6 @@ export const airports = [
 ]
 
 const Desktop1 = () => {
-    const navigation = useNavigate()
-
-    const handleNameClick = () => {
-        navigation('/desktop2')
-    }
 
     return (
         <>
