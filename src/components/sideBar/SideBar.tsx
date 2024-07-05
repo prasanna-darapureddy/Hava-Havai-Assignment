@@ -1,4 +1,4 @@
-import { View, Flex, Heading, Divider, ListBox, Item, Section, Text, Content } from "@adobe/react-spectrum"
+import { View, Divider, ListBox, Item, Section, Text} from "@adobe/react-spectrum"
 import Home from '@spectrum-icons/workflow/Home';
 import Apps from '@spectrum-icons/workflow/Apps';
 

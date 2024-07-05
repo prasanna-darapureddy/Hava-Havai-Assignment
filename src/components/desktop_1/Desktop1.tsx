@@ -2,8 +2,6 @@ import { Button, Flex, Text, View, Cell, Column, Heading, Row, TableView, TableB
 import Add from "@spectrum-icons/workflow/Add"
 import Delete from "@spectrum-icons/workflow/Delete"
 import Edit from "@spectrum-icons/workflow/Edit"
-import type { Selection } from '@adobe/react-spectrum';
-import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 
 export const airports = [
